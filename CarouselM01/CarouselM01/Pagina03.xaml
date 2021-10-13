@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarouselM01.Pagina03"
+             Title="Página 03">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Beige">
+            <Label Text="Página 03"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   FontAttributes="Bold"
+                   FontSize="30"/>
+            <Label Text="Página 05 dentro do CarouselPage" FontSize="20"
+                   FontAttributes="Bold" TextColor="DarkViolet"
+                   HorizontalTextAlignment="Center"/>
+            <Button Text="Página MainPage" Clicked="Bt2VoltarMainpage"
+                    WidthRequest="400" HeightRequest="50"
+                    TextColor="Black"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

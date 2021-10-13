@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarouselM01.PaginaCarousel"
+             xmlns:local="clr-namespace:CarouselM01"
+              Title="Página Carousel">
+    <ContentPage BackgroundColor="White">
+        <StackLayout>
+            <Image Source="https://static.novaflor.com.br/images/product/29465e.jpg" HeightRequest="150" />
+            <Label Text="Feliz aniversário!" FontSize="20"
+                   FontAttributes="Bold" TextColor="Red"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="Página 01 dentro do CarouselPage" FontSize="20"
+                   FontAttributes="Bold" TextColor="DarkViolet"
+                   HorizontalTextAlignment="Center"/>
+            <Button Text="Página " Clicked="BtIr2"
+                    WidthRequest="400" HeightRequest="50"
+                    TextColor="Black"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage BackgroundColor="Yellow">
+        <StackLayout>
+            <Image Source="https://s2.glbimg.com/w0VlWuIm0qtZC7CStq8IeoCcshA=/620x413/e.glbimg.com/og/ed/f/original/2019/01/08/lamborghini-huracan_evo-2019-1600-04.jpg" HeightRequest="150" />
+            <Label Text="Parabens! Você ganhou!!!" FontSize="20"
+                   FontAttributes="Bold" TextColor="Red"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="Página 02 dentro do CarouselPage" FontSize="20"
+                   FontAttributes="Bold" TextColor="DarkViolet"
+                   HorizontalTextAlignment="Center"/>
+            <Button Text="Página " 
+                    WidthRequest="400" HeightRequest="50"
+                    TextColor="Black"/>
+        </StackLayout>
+    </ContentPage>
+    <local:Pagina02 />
+    <ContentPage BackgroundColor="Lime">
+        <StackLayout>
+            <Image Source="https://s2.glbimg.com/w0VlWuIm0qtZC7CStq8IeoCcshA=/620x413/e.glbimg.com/og/ed/f/original/2019/01/08/lamborghini-huracan_evo-2019-1600-04.jpg" HeightRequest="150" />
+            <Label Text="Parabens! Você ganhou!!!" FontSize="20"
+                   FontAttributes="Bold" TextColor="Red"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="Página 04 dentro do CarouselPage" FontSize="20"
+                   FontAttributes="Bold" TextColor="DarkViolet"
+                   HorizontalTextAlignment="Center"/>
+            <Button Text="Página " 
+                    WidthRequest="400" HeightRequest="50"
+                    TextColor="Black"/>
+        </StackLayout>
+    </ContentPage>
+    <local:Pagina03 />
+</CarouselPage>
